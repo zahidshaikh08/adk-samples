@@ -4,8 +4,8 @@
   "version": "2.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "npm run copy-mediapipe && tsc && vite build",
+    "dev": "node init && vite",
+    "build": "node init && npm run copy-mediapipe && tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint src --ext .ts,.tsx",
     "copy-mediapipe": "bash scripts/copy-mediapipe.sh",
