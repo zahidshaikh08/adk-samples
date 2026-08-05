@@ -127,7 +127,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-**/.env
 .venv
 env/
 venv/
@@ -200,7 +199,6 @@ adk_web_log*.txt
 bin/
 
 # Local VSCode settings
-.vscode/
 
 # Gemini CLI
 GEMINI.md
@@ -233,3 +231,4 @@ client_secret*.json
 *credentials*.json
 *.pem
 *.key
+config.bat
