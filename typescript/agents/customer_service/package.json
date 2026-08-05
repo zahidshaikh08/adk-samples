@@ -4,11 +4,17 @@
   "description": "Typescript implementation of the customer service agent.",
   "main": "dist/agent.js",
   "scripts": {
-    "start": "node dist/agent.js",
+    "start": "node api.js && node dist/agent.js",
     "build": "tsc",
     "prestart": "npm run build"
   },
-  "keywords": ["adk", "typescript", "agent", "customer-service", "google-gemini"],
+  "keywords": [
+    "adk",
+    "typescript",
+    "agent",
+    "customer-service",
+    "google-gemini"
+  ],
   "author": "Shahin Saadati",
   "license": "Apache-2.0",
   "dependencies": {
